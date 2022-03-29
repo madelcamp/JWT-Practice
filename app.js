@@ -24,7 +24,7 @@ app.use(authRoutes)
 const initializer = async () => {
   try {
 
-    const dbURI = 'mongodb+srv://mario:WTV8V2mp6qPiIgRV@jwtdb.upick.mongodb.net/node-auth?retryWrites=true&w=majority'
+    const dbURI = ''
     const options = { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
     const result = await mongoose.connect(dbURI, options)
     //console.log(result);
