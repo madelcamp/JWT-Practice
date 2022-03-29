@@ -1,3 +1,3 @@
 # JWT-Practice
 
-This is the project I did to learn JWT token authentication.
+This is the project I did to learn JTW authentication.
